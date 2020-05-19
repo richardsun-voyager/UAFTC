@@ -24,3 +24,11 @@ show how the interplay between the two quantities may impact the model performan
 * 20News I
 * 20News II
 
+## Citation
+@inproceedings{Xiaobing2020Attention,
+  title={Understanding Attention for Text Classification},
+  author={Xiaobing Sun and Wei Lu},
+  booktitle={Proceedings of ACL},
+  year={2020}
+}
+
