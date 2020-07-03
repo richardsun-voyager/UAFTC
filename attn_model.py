@@ -72,5 +72,5 @@ class SimpleAttnClassifier(nn.Module):
             print("Loaded from {} with shape {}".format(path, vectors.shape))
             #self.word_embed.weight = nn.Parameter(torch.FloatTensor(vectors))
             self.embeddings.weight.data.copy_(torch.from_numpy(vectors))
-            self.embeddings.required_grad = trainable
+            self.embeddings.weight.requires_grad = trainable
             print('embeddings loaded')
