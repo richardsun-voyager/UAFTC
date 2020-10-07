@@ -1,5 +1,5 @@
 # Understanding Attention for Text Classification
-This is the supplementary materials and Pytorch code for the paper Understanding Attention for Text Classification.
+This is the supplementary materials and Pytorch code for the paper [Understanding Attention for Text Classification](https://www.aclweb.org/anthology/2020.acl-main.312).
 <p align="center">
  <img src="imgs/sst_attn_score_d10_tanh.png" width="700"/>
 </p>
